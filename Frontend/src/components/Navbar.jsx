@@ -29,6 +29,12 @@ function Navbar() {
             </Button>
           </Link>
 
+          <Link to={`/analytics`}>
+            <Button variant="outline" size="sm" className="">
+              <User className="h-4 w-4 mr-2" />
+              Analytics
+            </Button>
+          </Link>
 
           <Link to="/login">
             <Button variant="outline" className="bg-blue-600 hover:bg-blue-500 text-white ">
